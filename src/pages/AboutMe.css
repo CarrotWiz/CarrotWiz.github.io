@@ -1,0 +1,28 @@
+.aboutme {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    font-size: 3rem;
+    background-color: #d0f0c0;
+    color: #242222;
+    min-height: 91.75vh;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+}
+
+.row-break{
+    height: 20px;
+    border: none;
+    margin: 0;
+}
+
+.text1 {
+    margin-left: 15vw;
+    margin-right: 10vw;
+    font-size: 2rem;
+}
