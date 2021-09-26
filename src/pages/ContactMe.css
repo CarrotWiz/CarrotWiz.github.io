@@ -1,0 +1,11 @@
+ul.contact-me-ul {
+    font-size: 1.3rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 20px;
+    list-style-type: disc;
+}
+
+a {
+    color:#BBD8AD;
+}
