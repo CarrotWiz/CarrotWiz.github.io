@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: monospace;
+    font-family: Helvetica;
 }
 
 .home {
@@ -29,7 +29,7 @@
 }
 
 .subheader {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     padding-left: 24px;
     padding-top: 24px;
     font-weight: bold;

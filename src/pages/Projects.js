@@ -14,7 +14,7 @@ function Projects(props) {
 
     return (
         <>
-            <div className='subheader'>
+            <div className='subheader a'>
                 Projects
             </div>
             <div className='projects-box'>
