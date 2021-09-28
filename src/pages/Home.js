@@ -10,7 +10,7 @@ import CommonGG from '../projects/CommonGG.js';
 function Home() {
 
     const name = "Nolan Song";
-    const skills = ["a", "b", "c", "1", "2", "3"];
+    const skills = ["React", "JavaScript", "HTML5", "CSS3", "Git", "Java", "C", "GDB", "x86-64", "SQL"];
     const projects=[
         {
             name: "Common.gg",
