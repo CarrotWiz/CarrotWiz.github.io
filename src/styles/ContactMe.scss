@@ -1,0 +1,38 @@
+$headerMargin: 2rem;
+$headerFontSize: 35px;
+$bodyFontSize: 25px;
+$small: 768px;
+$medium: 991px;
+
+.contact_me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    .header{
+        font-size: $headerFontSize;
+        margin: auto;
+        margin-top: $headerMargin;
+        margin-bottom: $headerMargin;
+        text-align: center;
+        font-weight: bold;
+    }
+    .links_ul{
+        font-size: $bodyFontSize;
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media (max-width: $medium){
+    .contact_me .links_ul{
+        width: 80%;
+    }
+}
+
+@media (max-width: $small){
+    .contact_me .links_ul{
+        width: 100%;
+    }
+}

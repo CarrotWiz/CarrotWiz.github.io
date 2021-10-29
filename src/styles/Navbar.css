@@ -1,0 +1,57 @@
+.navbar_container {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  height: 80px;
+  background-color: #d0f0c0;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 20px;
+}
+
+.navbar_container .nav_element {
+  background-color: inherit;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  color: black;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.navbar_container .nav_element .fas {
+  background-color: inherit;
+}
+
+.navbar_container .nav_element .nav_text {
+  background-color: inherit;
+  margin: auto;
+  padding: 10px;
+}
+
+@media (max-width: 1280px) {
+  .navbar_container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar_container {
+    width: 95%;
+  }
+  .navbar_container .nav_element {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+  .navbar_container .nav_element .nav_text {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Navbar.css.map */

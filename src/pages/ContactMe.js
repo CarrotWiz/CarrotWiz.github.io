@@ -1,15 +1,15 @@
-import React from 'react'
-import './ContactMe.css';
-import Resume from '../files/resume.pdf';
+import React from 'react';
+import Resume from '../files/Resume - Nolan Song.pdf';
+import '../styles/ContactMe.css';
 
 function ContactMe() {
     return (
         <>
-            <div className='subheader'>
-                Contact Me
-            </div>
-            <div className='contact-me-box'>
-                <ul className='contact-me-ul'>
+            <div className='contact_me'>
+                <div className='header'>
+                    Contact Me
+                </div>
+                <ul className='links_ul'>
                     <li>Email: nsong2001@gmail.com</li>
                     <li>Phone: +1(513)760-0886</li>
                     <li>GitHub: <a href="https://github.com/CarrotWiz" target="_blank">CarrotWiz</a></li>

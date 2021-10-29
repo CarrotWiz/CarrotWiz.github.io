@@ -1,0 +1,46 @@
+$headerMargin: 2rem;
+$projectCardMargin: 2rem;
+$headerFontSize: 35px;
+$small: 768px;
+$medium: 991px;
+$smaller: 432px;
+$superSmall: 411px;
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    .header{
+        font-size: $headerFontSize;
+        margin: auto;
+        margin-top: $headerMargin;
+        margin-bottom: $headerMargin;
+        text-align: center;
+        font-weight: bold;
+    }
+    .projects_container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+@media (max-width: $medium){
+    .projects .projects_container{
+        flex-direction: column;
+        .project_card{
+            margin-bottom: 1rem;
+        }
+    }
+}
+@media (max-width: $smaller){
+    .projects .projects_container .project_card{
+        margin-bottom: 1.5rem;
+    }
+}
+@media (max-width: $superSmall){
+    .projects .projects_container .project_card{
+        margin-bottom: 6rem;
+    }
+}

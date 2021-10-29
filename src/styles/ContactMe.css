@@ -1,0 +1,43 @@
+.contact_me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.contact_me .header {
+  font-size: 35px;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contact_me .links_ul {
+  font-size: 25px;
+  width: 60%;
+  margin: auto;
+}
+
+@media (max-width: 991px) {
+  .contact_me .links_ul {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact_me .links_ul {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=ContactMe.css.map */

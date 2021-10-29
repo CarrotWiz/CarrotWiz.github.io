@@ -1,0 +1,41 @@
+$headerMargin: 2rem;
+$aboutMeMargin: 1rem;
+$headerFontSize: 35px;
+$bodyFontSize: 25px;
+$bodyFontSizeSmall: 23px;
+$small: 768px;
+$medium: 991px;
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    .header{
+        font-size: $headerFontSize;
+        margin: auto;
+        margin-top: $headerMargin;
+        margin-bottom: $headerMargin;
+        text-align: center;
+        font-weight: bold;
+    }
+    .about_me{
+        font-size: $bodyFontSize;
+        width: 80%;
+        margin: auto;
+        margin-top: $aboutMeMargin;
+        margin-bottom: $aboutMeMargin;
+    }
+}
+@media (max-width: $medium){
+    .about_me{
+        width: 90%;
+    }
+}
+@media (max-width: $small){
+    .home .about_me{
+        font-size: $bodyFontSizeSmall;
+        width: 95%;
+    }
+}
